@@ -34,6 +34,10 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
+Adaptive websites often provide a better user experience across devices than fixed or fluid website layouts but present some challenges for web developers that are resolved by fully responsive websites.
+
+One of the key differences between adaptive websites and fully responsive websites
+
 2. Describe what it means to be mobile first vs desktop first.
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
