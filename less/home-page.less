@@ -104,8 +104,13 @@
       }
       
       .btn {
-        //.custom-btn(background color of button, width of button in %)
-        .custom-btn(@btn-bg-color, 28%);
+        //.custom-btn(background color of button, width of button in %, padding around button)
+        .custom-btn(@btn-bg-color, 28%, 1rem);
+
+        @media @phone {
+          width: 100%;
+          padding: 2.5rem;
+        }
       }
     }
 
