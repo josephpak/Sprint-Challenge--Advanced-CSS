@@ -162,6 +162,9 @@ p {
 }
 .nav {
   background-color: #F6F6F6;
+  animation-name: changes;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
 }
 .nav .navigation {
   display: flex;
@@ -192,6 +195,29 @@ p {
   color: #5E6164;
   padding: 0 1.8rem;
   font-size: 1.6rem;
+}
+@keyframes changes {
+  0% {
+    background-color: black;
+  }
+  25% {
+    background-color: MediumAquamarine;
+  }
+  50% {
+    background-color: FireBrick;
+  }
+  75% {
+    background-color: Chartreuse;
+  }
+  100% {
+    background-color: #de1e7e;
+  }
+  from {
+    color: #5E6164;
+  }
+  to {
+    color: white;
+  }
 }
 footer {
   color: #22283B;

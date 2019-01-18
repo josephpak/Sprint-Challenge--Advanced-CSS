@@ -1,5 +1,7 @@
 .nav {
     background-color: @nav-bg;
+    //.color-change(10s, infinite);
+    .color-change(10s, infinite);
 
     .navigation {
         display: flex;
@@ -34,3 +36,14 @@
 
     
 }
+
+@keyframes changes {
+    0% {background-color: black;}
+    25% {background-color: MediumAquamarine;}
+    50% {background-color: FireBrick}
+    75% {background-color: Chartreuse;}
+    100% {background-color: #de1e7e;}
+
+    from {color: @main-font-color;}
+    to {color: white};
+  }
