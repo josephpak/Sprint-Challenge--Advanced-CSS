@@ -160,6 +160,39 @@ p {
   width: 100%;
   margin: 0 auto;
 }
+.nav {
+  background-color: #F6F6F6;
+}
+.nav .navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 800px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  padding: 12px 0;
+}
+.nav .navigation h1 {
+  width: 100%;
+  text-align: center;
+  font-size: 3.2rem;
+}
+.nav .navigation .links {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 17px;
+}
+.nav .navigation .links a {
+  display: flex;
+  justify-content: center;
+  padding: 0 1.8rem;
+  font-size: 1.6rem;
+  cursor: pointer;
+  text-decoration: none;
+  color: #5E6164;
+}
 footer {
   color: #22283B;
   background: #f4f4f4;

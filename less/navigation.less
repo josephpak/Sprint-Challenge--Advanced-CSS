@@ -1,1 +1,39 @@
-// Navigation code here
+.nav {
+    background-color: @nav-bg;
+
+    .navigation {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 800px;
+        margin: 0 auto;
+        flex-wrap: wrap;
+        padding: 12px 0;
+
+        h1 {
+            width: 100%;
+            text-align: center;
+            font-size: 3.2rem;
+        }
+    
+        .links {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 17px;
+
+            a {
+                display: flex;
+                justify-content: center;
+                padding: 0 1.8rem;
+                font-size: 1.6rem;
+                cursor: pointer;
+                text-decoration: none;
+                color: @main-font-color;
+            }
+        }
+    }
+
+    
+}
