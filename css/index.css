@@ -168,6 +168,10 @@ p {
   animation-name: changes;
   animation-duration: 10s;
   animation-iteration-count: infinite;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 10;
 }
 .nav .navigation {
   display: flex;
@@ -225,6 +229,9 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.home {
+  margin-top: 89px;
 }
 .home .header-image {
   border-radius: 5px;

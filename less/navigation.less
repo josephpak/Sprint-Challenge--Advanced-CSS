@@ -2,6 +2,10 @@
     background-color: @nav-bg;
     //.color-change(10s, infinite);
     .color-change(10s, infinite);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 10;
 
     .navigation {
         display: flex;
@@ -43,4 +47,4 @@
     50% {background-color: @nav-bg}
     75% {background-color: lightgreen;}
     100% {background-color: lightblue;}
-  }
+}
