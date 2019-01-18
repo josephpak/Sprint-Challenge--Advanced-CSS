@@ -1,3 +1,20 @@
+.custom-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #22283A;
+  color: white;
+  border-radius: 0.5rem;
+  width: 28%;
+  padding: 1rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+.custom-btn:hover {
+  background-color: white;
+  color: #22283A;
+  border: 1px solid #22283A;
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -187,11 +204,11 @@ p {
 .nav .navigation .links a {
   display: flex;
   justify-content: center;
-  padding: 0 1.8rem;
-  font-size: 1.6rem;
   cursor: pointer;
   text-decoration: none;
   color: #5E6164;
+  padding: 0 1.8rem;
+  font-size: 1.6rem;
 }
 footer {
   color: #22283B;
@@ -247,6 +264,23 @@ footer {
 }
 .home .walk .walk-text p {
   margin-bottom: 26px;
+}
+.home .walk .walk-text .btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #22283A;
+  color: white;
+  border-radius: 0.5rem;
+  width: 28%;
+  padding: 1rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+.home .walk .walk-text .btn:hover {
+  background-color: white;
+  color: #22283A;
+  border: 1px solid #22283A;
 }
 .home .walk .walk-img {
   width: 46%;
