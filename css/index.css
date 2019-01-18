@@ -239,6 +239,11 @@ footer {
     width: 100%;
   }
 }
+@media (max-width: 500px) and (max-width: 500px) {
+  .home .space-images .blast {
+    padding: 0 2%;
+  }
+}
 .home .space-images img {
   width: 28%;
   margin: 20px 2.5%;
