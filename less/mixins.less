@@ -1,1 +1,38 @@
-// Mixins Here
+.custom-link(@color, @size) {
+    cursor: pointer;
+    text-decoration: none;
+    color: @color;
+    padding: 0 1.8rem;
+    font-size: @size;
+}
+
+.custom-btn(@color, @size, @height) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: @color;
+    color: white;
+    border-radius: .5rem;
+    width: @size;
+    padding: @height;
+    font-size: 1.5rem;
+    cursor: pointer;
+
+    &:hover {
+        background-color: white;
+        color: @btn-bg-color;
+        border: 1px solid @btn-bg-color;
+      }
+}
+
+// Animations
+
+.color-change(@speed, @duration) {
+    animation-name: changes;
+    animation-duration: @speed;
+    animation-iteration-count: @duration
+}
+
+.pop-out {
+    animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}

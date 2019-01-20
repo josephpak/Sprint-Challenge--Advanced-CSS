@@ -1,1 +1,50 @@
-// Navigation code here
+.nav {
+    background-color: @nav-bg;
+    //.color-change(10s, infinite);
+    .color-change(10s, infinite);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 10;
+
+    .navigation {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 800px;
+        margin: 0 auto;
+        flex-wrap: wrap;
+        padding: 12px 0;
+
+        h1 {
+            width: 100%;
+            text-align: center;
+            font-size: 3.2rem;
+        }
+    
+        .links {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 17px;
+
+            a {
+                display: flex;
+                justify-content: center;
+                // .custom-link(font color of the link, font size of the link item)
+                .custom-link(@main-font-color, 1.6rem);
+            }
+        }
+    }
+
+    
+}
+
+@keyframes changes {
+    0% {background-color: grey;}
+    25% {background-color: MediumAquamarine;}
+    50% {background-color: @nav-bg}
+    75% {background-color: lightgreen;}
+    100% {background-color: lightblue;}
+}

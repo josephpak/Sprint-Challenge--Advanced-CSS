@@ -1,0 +1,115 @@
+.about {
+    margin-top: 69px;
+
+    .header-image {
+        border-radius: 5px;
+        width: 100%;
+        margin: 0;
+  
+      @media @phone {
+        height: 110px;
+        width: 100%;
+        margin-top: 89px;
+      }
+      
+    }  
+  
+    .intro {
+  
+      h2 {
+        padding: 15px;
+      }
+  
+      p {
+        padding:0 15px;
+      }
+    
+    }
+  
+    .founder {
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+      .pop-out;
+      margin: 10px 0;
+      padding: 0 2%;
+  
+      @media @phone {
+        justify-content: center;
+      }
+
+    }
+  
+      img {
+        width: 28%;
+        margin: 20px 2.5%;
+        border-radius: 20px;
+        height: 100%;
+  
+        @keyframes scale-up-center {
+          0% {
+            transform: scale(0.5);
+          }
+          100% {
+            transform: scale(1);
+          }
+        }
+      }
+    }
+  
+    .funding {
+      padding: 15px;
+  
+      h3 {
+        margin-top: 11px;
+        @media @phone {
+        }
+      }
+  
+      p {
+        margin-top: 13px;
+        @media @phone {
+        }
+      }
+    }
+  
+    .careers {
+      margin-top: 60px;
+      border-top: 1px solid @main-border-color;
+      padding: 50px;
+      display: flex;
+      width: 100%;
+  
+      @media @phone {
+        flex-direction: column;
+        margin: 20px 0;
+      }
+  
+      .careers-text {
+        width: 100%;
+  
+        @media @phone {
+          width: 100%;
+        }
+  
+        h3 {
+          margin-bottom: 10px;
+        }
+  
+        p {
+          margin-bottom: 26px;
+        }
+        
+        .btn {
+          //.custom-btn(background color of button, width of button in %, padding around button)
+          .custom-btn(@btn-bg-color, 28%, 1rem);
+  
+          @media @phone {
+            width: 100%;
+            padding: 2.5rem;
+          }
+        }
+      }
+
+}
+    
